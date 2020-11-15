@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2831201F256122B5005B64D3 /* JewellaryMenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831201E256122B5005B64D3 /* JewellaryMenuRouter.swift */; };
+		2831202125613773005B64D3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2831202025613773005B64D3 /* AppRouter.swift */; };
+		2859BE9F2542D54200CA2CED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859BE9E2542D54200CA2CED /* AppDelegate.swift */; };
+		2859BEA12542D54200CA2CED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859BEA02542D54200CA2CED /* SceneDelegate.swift */; };
+		2859BEA32542D54200CA2CED /* JewallaryMenuScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859BEA22542D54200CA2CED /* JewallaryMenuScreen.swift */; };
+		2859BEA82542D54500CA2CED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2859BEA72542D54500CA2CED /* Assets.xcassets */; };
+		2859BEAB2542D54500CA2CED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2859BEA92542D54500CA2CED /* LaunchScreen.storyboard */; };
+		2859BEB32542D55100CA2CED /* JewellaryData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2859BEB22542D55100CA2CED /* JewellaryData.json */; };
+		2859BEB52542D66900CA2CED /* JewallaryMenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859BEB42542D66900CA2CED /* JewallaryMenuModel.swift */; };
+		2859BEB72542D8FE00CA2CED /* JewellaryItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2859BEB62542D8FE00CA2CED /* JewellaryItemCell.xib */; };
+		2859BEB92542D98A00CA2CED /* JewellaryItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859BEB82542D98A00CA2CED /* JewellaryItemCell.swift */; };
+		2865A406254FCE790062B21F /* JewellaryMenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865A405254FCE790062B21F /* JewellaryMenuDataSource.swift */; };
+		2865A40F254FDCFC0062B21F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2865A40E254FDCFC0062B21F /* Extensions.swift */; };
+		2878200B25511A7500E26728 /* Consants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2878200A25511A7500E26728 /* Consants.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2831201E256122B5005B64D3 /* JewellaryMenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewellaryMenuRouter.swift; sourceTree = "<group>"; };
+		2831202025613773005B64D3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		2859BE9B2542D54200CA2CED /* JewellaryMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JewellaryMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2859BE9E2542D54200CA2CED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2859BEA02542D54200CA2CED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2859BEA22542D54200CA2CED /* JewallaryMenuScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewallaryMenuScreen.swift; sourceTree = "<group>"; };
+		2859BEA72542D54500CA2CED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2859BEAA2542D54500CA2CED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2859BEAC2542D54500CA2CED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2859BEB22542D55100CA2CED /* JewellaryData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JewellaryData.json; sourceTree = "<group>"; };
+		2859BEB42542D66900CA2CED /* JewallaryMenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewallaryMenuModel.swift; sourceTree = "<group>"; };
+		2859BEB62542D8FE00CA2CED /* JewellaryItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JewellaryItemCell.xib; sourceTree = "<group>"; };
+		2859BEB82542D98A00CA2CED /* JewellaryItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewellaryItemCell.swift; sourceTree = "<group>"; };
+		2865A405254FCE790062B21F /* JewellaryMenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JewellaryMenuDataSource.swift; sourceTree = "<group>"; };
+		2865A40E254FDCFC0062B21F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		2878200A25511A7500E26728 /* Consants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consants.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2859BE982542D54200CA2CED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2831201D25612299005B64D3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2831201E256122B5005B64D3 /* JewellaryMenuRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2859BE922542D54200CA2CED = {
+			isa = PBXGroup;
+			children = (
+				2859BE9D2542D54200CA2CED /* JewellaryMenu */,
+				2859BE9C2542D54200CA2CED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2859BE9C2542D54200CA2CED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2859BE9B2542D54200CA2CED /* JewellaryMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2859BE9D2542D54200CA2CED /* JewellaryMenu */ = {
+			isa = PBXGroup;
+			children = (
+				2831201D25612299005B64D3 /* Router */,
+				2865A408254FCEF20062B21F /* ViewController */,
+				2865A40B254FCF230062B21F /* Model */,
+				2865A40A254FCF060062B21F /* DataSource */,
+				2865A409254FCEFF0062B21F /* View */,
+				2865A407254FCEC40062B21F /* SupportingFiles */,
+				2859BEAC2542D54500CA2CED /* Info.plist */,
+				2865A40E254FDCFC0062B21F /* Extensions.swift */,
+				2878200A25511A7500E26728 /* Consants.swift */,
+			);
+			path = JewellaryMenu;
+			sourceTree = "<group>";
+		};
+		2865A407254FCEC40062B21F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2859BEA92542D54500CA2CED /* LaunchScreen.storyboard */,
+				2859BEA72542D54500CA2CED /* Assets.xcassets */,
+				2859BEB22542D55100CA2CED /* JewellaryData.json */,
+				2859BE9E2542D54200CA2CED /* AppDelegate.swift */,
+				2859BEA02542D54200CA2CED /* SceneDelegate.swift */,
+				2831202025613773005B64D3 /* AppRouter.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		2865A408254FCEF20062B21F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2859BEA22542D54200CA2CED /* JewallaryMenuScreen.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		2865A409254FCEFF0062B21F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2865A40C254FCF4F0062B21F /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2865A40A254FCF060062B21F /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				2865A405254FCE790062B21F /* JewellaryMenuDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		2865A40B254FCF230062B21F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2859BEB42542D66900CA2CED /* JewallaryMenuModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2865A40C254FCF4F0062B21F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2859BEB82542D98A00CA2CED /* JewellaryItemCell.swift */,
+				2859BEB62542D8FE00CA2CED /* JewellaryItemCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2859BE9A2542D54200CA2CED /* JewellaryMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2859BEAF2542D54500CA2CED /* Build configuration list for PBXNativeTarget "JewellaryMenu" */;
+			buildPhases = (
+				2859BE972542D54200CA2CED /* Sources */,
+				2859BE982542D54200CA2CED /* Frameworks */,
+				2859BE992542D54200CA2CED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JewellaryMenu;
+			productName = JewellaryMenu;
+			productReference = 2859BE9B2542D54200CA2CED /* JewellaryMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2859BE932542D54200CA2CED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Bunny Bhargav";
+				TargetAttributes = {
+					2859BE9A2542D54200CA2CED = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 2859BE962542D54200CA2CED /* Build configuration list for PBXProject "JewellaryMenu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2859BE922542D54200CA2CED;
+			productRefGroup = 2859BE9C2542D54200CA2CED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2859BE9A2542D54200CA2CED /* JewellaryMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2859BE992542D54200CA2CED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2859BEB72542D8FE00CA2CED /* JewellaryItemCell.xib in Resources */,
+				2859BEAB2542D54500CA2CED /* LaunchScreen.storyboard in Resources */,
+				2859BEB32542D55100CA2CED /* JewellaryData.json in Resources */,
+				2859BEA82542D54500CA2CED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2859BE972542D54200CA2CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2859BEB52542D66900CA2CED /* JewallaryMenuModel.swift in Sources */,
+				2865A406254FCE790062B21F /* JewellaryMenuDataSource.swift in Sources */,
+				2831201F256122B5005B64D3 /* JewellaryMenuRouter.swift in Sources */,
+				2878200B25511A7500E26728 /* Consants.swift in Sources */,
+				2859BEA32542D54200CA2CED /* JewallaryMenuScreen.swift in Sources */,
+				2859BE9F2542D54200CA2CED /* AppDelegate.swift in Sources */,
+				2859BEA12542D54200CA2CED /* SceneDelegate.swift in Sources */,
+				2859BEB92542D98A00CA2CED /* JewellaryItemCell.swift in Sources */,
+				2831202125613773005B64D3 /* AppRouter.swift in Sources */,
+				2865A40F254FDCFC0062B21F /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2859BEA92542D54500CA2CED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2859BEAA2542D54500CA2CED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2859BEAD2542D54500CA2CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2859BEAE2542D54500CA2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2859BEB02542D54500CA2CED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JewellaryMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bunny.flourist.JewellaryMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2859BEB12542D54500CA2CED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JewellaryMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bunny.flourist.JewellaryMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2859BE962542D54200CA2CED /* Build configuration list for PBXProject "JewellaryMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2859BEAD2542D54500CA2CED /* Debug */,
+				2859BEAE2542D54500CA2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2859BEAF2542D54500CA2CED /* Build configuration list for PBXNativeTarget "JewellaryMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2859BEB02542D54500CA2CED /* Debug */,
+				2859BEB12542D54500CA2CED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2859BE932542D54200CA2CED /* Project object */;
+}
